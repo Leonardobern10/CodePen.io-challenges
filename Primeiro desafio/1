@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Primeiro teste no Codepen.io </title>
+        <style type = "text/css">
+            @font-face{
+                font-family: Inconsolata;
+                src: url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap.ttf')
+            }
+            @font-face{
+                font-family:'Space Mono';
+                src: url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap')
+            }
+            #erro{
+                position: absolute;
+                width: 133px;
+                height: 25px;
+                left: 50px;
+                top: 50px;
+                font-family:'Inconsolata', monospace;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 25px;
+                letter-spacing: -0.02em;
+                text-transform: uppercase;
+                color: #333333;
+            }
+            .mensagem{
+                position: absolute;
+                width: 381px;
+                height: 108px;
+                left: 1200px;
+                top: 491px;
+                font-family: 'Space Mono', monospace;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 36px;
+                letter-spacing: -0.035em;
+                color: #4F4F4F;;
+                letter-spacing: -0.035em;
+            }
+            img{
+                position: absolute;
+                left:5.35%;
+                right: 57.21%;
+                top: 24.54%;
+                bottom:34.03%;
+                height: 60%;
+            }
+            .noticia_ruim{
+                position: absolute;
+                width: 586px;
+                height: 190px;
+                left: 1200px;
+                top: 265px;
+                font-family: 'Space Mono', monospace;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 64px;
+                line-height: 95px;
+                letter-spacing: -0.035em;
+                color:#333333;
+            }
+            article{
+                text-align: center;
+                width: 300px;
+                height: 30px;
+                font-family: 'Space Mono', monospace;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 25px;
+                line-height: 21px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                letter-spacing: 1;
+                padding-top: 27px;
+            }
+            .caixa_retorno{
+                position: absolute;
+                width: 300px;
+                height: 90px;
+                left: 1300px;
+                top: 750px;
+                background: #333333;
+            }
+            footer{    
+                position: absolute;
+                width: 287px;
+                height: 17px;
+                left: 850px;   
+                top: 1039px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 12px;
+                text-align: center;
+                color: #BDBDBD;
+            }
+        </style>
+    </head>
+    <body>
+        <div id = "erro"> 404 NOT FOUND </div>
+        <div>
+            <img src = "file:///home/leo/Downloads/Projetos%20CodePen.io/404-not-found-master/Scarecrow.png" alt = "Espantalho Haloowen"/>
+            <div class = "noticia_ruim" > I have bad news for you</div>
+            <div class = "mensagem"> The page you are looking for migth be removed or is temporarily unavailable </div>
+            <div class = "caixa_retorno">
+                <article> BACK TO HOMEPAGE </article>
+            </div>
+        </div>
+        <footer>
+            Created by Leonardobern10 - devChallenges.io
+        </footer>
+    </body>
+</html>
